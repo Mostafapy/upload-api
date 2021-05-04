@@ -1,0 +1,7 @@
+RESTFUL API TO UPLOAD IMAGES
+
+- You can view uploaded image on  URL: s3://uploadimageawss3bucket/{image name with extension} 
+
+- APIS on Basic URL: https://cemfjhtr86.execute-api.us-east-1.amazonaws.com/dev/
+
+- SWAGGER URL: https://cemfjhtr86.execute-api.us-east-1.amazonaws.com/api/v0/explore

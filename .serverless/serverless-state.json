@@ -175,7 +175,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/upload-image-api/dev/1620164747047-2021-05-04T21:45:47.047Z/upload-image-api.zip"
+                "S3Key": "serverless/upload-image-api/dev/1620167429720-2021-05-04T22:30:29.720Z/upload-image-api.zip"
               },
               "Handler": "handler.handler",
               "Runtime": "nodejs12.x",
@@ -193,14 +193,14 @@
               "UploadDashapiLogGroup"
             ]
           },
-          "UploadDashapiLambdaVersionyJ2utwpVmn41ytdOAkKPbrEfNej7Ki0Uch255R6U": {
+          "UploadDashapiLambdaVersionPiNvfOef55wgN8coTNZs3TMxjm9ALDHsKPC0FOE": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "UploadDashapiLambdaFunction"
               },
-              "CodeSha256": "Z2VTmvDWxIvTMg3D8dwKrgVCPw150TVdAq+3fCmi/cI="
+              "CodeSha256": "JyZuAr/wbD8I7RVFaUDLA5mFRpawrCcH0Y9K9niGtMc="
             }
           },
           "ApiGatewayRestApi": {
@@ -412,7 +412,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1620164744381": {
+          "ApiGatewayDeployment1620167426780": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -477,7 +477,7 @@
           "UploadDashapiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "UploadDashapiLambdaVersionyJ2utwpVmn41ytdOAkKPbrEfNej7Ki0Uch255R6U"
+              "Ref": "UploadDashapiLambdaVersionPiNvfOef55wgN8coTNZs3TMxjm9ALDHsKPC0FOE"
             },
             "Export": {
               "Name": "sls-upload-image-api-dev-UploadDashapiLambdaFunctionQualifiedArn"
@@ -659,7 +659,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "UploadDashapiLambdaVersionyJ2utwpVmn41ytdOAkKPbrEfNej7Ki0Uch255R6U"
+        "versionLogicalId": "UploadDashapiLambdaVersionPiNvfOef55wgN8coTNZs3TMxjm9ALDHsKPC0FOE"
       }
     },
     "configValidationMode": "warn",
@@ -681,7 +681,7 @@
     "artifact": "/home/mustafa/projects/image-uploader-api/.serverless/upload-image-api.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/upload-image-api/dev/1620164747047-2021-05-04T21:45:47.047Z",
+    "artifactDirectoryName": "serverless/upload-image-api/dev/1620167429720-2021-05-04T22:30:29.720Z",
     "artifact": "upload-image-api.zip"
   }
 }
